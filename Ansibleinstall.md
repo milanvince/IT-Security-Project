@@ -22,4 +22,4 @@ $ sudo apt-get install ansible
 That's it! Now we got installed Ansible on our machine. :)
 
 ## Futher reading
-https://packages.debian.org/sid/admin/software-properties-common
+[Package: software-properties-common](https://packages.debian.org/sid/admin/software-properties-common)
