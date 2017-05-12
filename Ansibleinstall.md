@@ -24,4 +24,4 @@ That's it! Now we got installed Ansible on our machine. :)
 ## Futher reading
 [Package: software-properties-common](https://packages.debian.org/sid/admin/software-properties-common)
 
-[Ansible (software)](https://en.wikipedia.org/wiki/Ansible_(software)
+[Ansible](https://en.wikipedia.org/wiki/Ansible_(software)
