@@ -23,7 +23,7 @@ GRANT ALL PRIVILEGES ON librenms.* TO 'librenms'@'localhost'; (Hit Enter)
 FLUSH PRIVILEGES; (Hit Enter)
 exit
 ```
-#### Open with one text edit /etc/mysql/mariadb.conf.d/50-server.cnf file:
+#### Open with one text editor /etc/mysql/mariadb.conf.d/50-server.cnf file:
 ```
 nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
@@ -107,7 +107,7 @@ a2enmod rewrite
 systemctl restart apache2
 ```
 
-#### Disable the default site if thi is the only site, what you are planning to host:
+#### Disable the default site if this is the only site, what you are planning to host:
 ```
 a2dissite 000-default
 ```
@@ -139,9 +139,8 @@ systemctl restart snmpd
 cp librenms.nonroot.cron /etc/cron.d/librenms
 ```
 
-### Copy logrotate config.
-#### LibreNMS keeps logs in /opt/librenms/logs.
-#### To rotate out the old logs with using the provided logrotate config file:
+#### Copy logrotate config.
+#### LibreNMS keeps logs in /opt/librenms/logs. To rotate out the old logs with using the provided logrotate config file:
 ```
 cp misc/librenms.logrotate /etc/logrotate.d/librenms
 ```
