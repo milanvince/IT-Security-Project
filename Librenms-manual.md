@@ -40,7 +40,7 @@ whois mtr-tiny nmap python-mysqldb snmpd php-net-ipv4 php-net-ipv6 rrdtool git
 ```
 Note that we installed php.mod 7.0 because it is one Ubuntu 16.04, The 14.05 can handle php5-version.
 
-#### Open /etc/php/7.0/apache2/php.ini and search for date.timezone (If you opened with nano can search with "Ctrl + W")
+#### Open /etc/php/7.0/apache2/php.ini and search for 'date.timezone' (If you opened with nano can search with "Ctrl + W")
 ```
 nano /etc/php/7.0/apache2/php.ini
 Date.timezone (delete ; and set your time zone. Valid example is: Europe/Copenhagen)
@@ -61,7 +61,7 @@ a2enmod mpm_prefork
 phpenmod mcrypt
 ```
 
-#### Add librenms user
+#### Add librenms user:
 
 ```
 useradd librenms -d /opt/librenms -M -r
@@ -148,7 +148,7 @@ cp misc/librenms.logrotate /etc/logrotate.d/librenms
 ```
 chown -R librenms:librenms /opt/librenms
 ```
-#### And for last Run validate.php as in the librenms directory
+#### And for last Run validate.php as in the librenms directory:
 ```
 cd /opt/librenms
 ./validate.php
