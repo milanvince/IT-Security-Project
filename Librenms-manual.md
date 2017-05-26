@@ -125,7 +125,7 @@ cp /opt/librenms/snmpd.conf.example /etc/snmp/snmpd.conf
 nano /etc/snmp/snmpd.conf
 ```
 ### And delete RANDOMSTRINGGOESHERE from the second line.
-
+----------------------------------------------------------------------------------------------------------------------------------------
 ### Then execute the following commands:
 ```
 curl -o /usr/bin/distro https://raw.githubusercontent.com/librenms/librenms-agent/master/snmp/distro
@@ -139,7 +139,7 @@ systemctl restart snmpd
 cp librenms.nonroot.cron /etc/cron.d/librenms
 ```
 
-### Copy logrotate config
+## Copy logrotate config.
 
 ### LibreNMS keeps logs in /opt/librenms/logs.
 ### To rotate out the old logs with using the provided logrotate config file:
