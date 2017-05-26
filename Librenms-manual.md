@@ -1,6 +1,6 @@
 ## The following document contains the instructions, how to install Librenms on Ubuntu 16.04 Desktop.
 
-First of all check the inet address of the local machine:
+#### First of all check the inet address of the local machine:
 ```
 ifconfig
 ```
