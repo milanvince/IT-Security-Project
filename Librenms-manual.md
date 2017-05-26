@@ -160,3 +160,7 @@ systemctl restart snmpd
 systemctl restart apache2
 systemctl restart mysql
 ```
+
+## Futher reading
+[Ubuntu 16.04 Apache](http://docs.librenms.org/Installation/Installation-Ubuntu-1604-Apache/#clone-repo)
+[Migrating from Observium to LibreNMS](https://vlan50.com/2015/04/17/migrating-from-observium-to-librenms/)
