@@ -30,8 +30,9 @@ nano /etc/mysql/mariadb.conf.d/50-server.cnf
 #### Within the [mysqld] section add:
 ```
 innodb_file_per_table=1
-sql-mode=""re going to configure the web server. (Apache2)
+sql-mode=""
 ```
+#### We are going to configure the web server. (Apache2)
 #### Install and Configure Apache:
 ```
 apt-get install libapache2-mod-php7.0 php7.0-cli php7.0-mysql php7.0-gd php7.0-snmp 
