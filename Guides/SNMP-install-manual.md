@@ -31,9 +31,9 @@ sudo nano /etc/default/snmpd
 
 ### Delete the following line:
 ```
-sudo nano /etc/default/snmpd
+SNMPDOPTS='-Lsd -Lf /dev/null -u snmp -g snmp -I -smux -p /var/run/snmpd.pid'
 ```
-#### and add this:
+### And add this:
 ```
 SNMPDOPTS='-Lsd -Lf /dev/null -u snmp -I -smux -p /var/run/snmpd.pid -c /etc/snmp/snmpd.conf'
 ```
