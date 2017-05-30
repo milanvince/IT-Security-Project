@@ -46,3 +46,7 @@ root# set security zones security-zone trust interfaces ge-0/0/0 host-inbound-tr
 root# commit
 ```
 #### Now we are able to ping our VSRX device from the client and add the device inside LibreNMS!
+
+## Further reading
+[https://www.juniper.net/documentation/en_US/junos/topics/example/policy-defining-cli.html](https://www.juniper.net/documentation/en_US/junos/topics/example/policy-defining-cli.html)
+
