@@ -2,7 +2,7 @@
 
 #### The following document contains a guide about how to setup one Juniper VSRX router ( Which is running in VMware) and connect it with LibreNMS.
 
-Our whole system is connected by VMnet 08 (NAT) where the Subnet IP is: 10.0.0.0 Subnet Mask: 255.255.255.0
+Our whole system is connected by VMnet8 (NAT) where the Subnet IP is: 10.0.0.0 Subnet Mask: 255.255.255.0
 Therefore we need to configure one interface of SRX like we can connect with the client later on.
 
 #### Start the router, type username and password, then:
