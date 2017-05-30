@@ -48,5 +48,5 @@ root# commit
 #### Now we are able to ping our VSRX device from the client and add the device inside LibreNMS!
 
 ## Further reading
-[https://www.juniper.net/documentation/en_US/junos/topics/example/policy-defining-cli.html](https://www.juniper.net/documentation/en_US/junos/topics/example/policy-defining-cli.html)
+[Configuring a Security Policy to Permit or Deny All Traffic](https://www.juniper.net/documentation/en_US/junos/topics/example/policy-defining-cli.html)
 
