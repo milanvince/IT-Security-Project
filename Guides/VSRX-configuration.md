@@ -45,6 +45,36 @@ root# set security zones security-zone trust interfaces ge-0/0/0.0
 root# set security zones security-zone trust interfaces ge-0/0/0 host-inbound-traffic system-services all 
 root# commit
 ```
+## Setup SNMP on Juniper VSRX
+SNMP is disabled by default in JUNOS, so we are going to enable SNMP on the VSRX.
+
+#### Firstly we are going to set the name of SNMP:
+```
+root# set name "NAME"
+```
+#### Set description:
+```
+root# set description "DESCRIPTION"
+```
+#### Location:
+```
+root# set location "LOCATION"
+```
+#### Contact:
+```
+root# set contact "EMAIL-ADDRESS"
+```
+#### Specify an SNMP community name and authorization level:
+```
+root# set community public authorization read-only/read-write
+```
+#### Create client list with a set of IP addresses what we can use the SNMP community, then commit:
+```
+root# set client-list list0 10.0.0.0/24
+root# set community publice client-list-name list0
+root# commit
+```
+
 #### Now we are able to ping our VSRX device from the client and add the device inside LibreNMS!
 
 ## Further reading
