@@ -80,3 +80,4 @@ root# commit
 ## Further reading
 [Configuring a Security Policy to Permit or Deny All Traffic](https://www.juniper.net/documentation/en_US/junos/topics/example/policy-defining-cli.html)
 
+[Configuring SNMP on Juniper devices](https://www.juniper.net/documentation/en_US/junos/topics/example/snmp-config-cli-qfx-series.html)
