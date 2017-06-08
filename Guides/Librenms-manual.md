@@ -4,11 +4,6 @@
 ```
 ifconfig
 ```
-
-#### Restart mysql:
-```
-systemctl restart mysql
-```
 #### Then let's install MySQL. (I have done in root.) 
 ```
 apt-get install mariadb-server mariadb-client
