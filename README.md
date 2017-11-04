@@ -2,7 +2,7 @@
 We have been asked to do an implementation task which is related with Chinanet in IT Security 2nd Semester.
 
 ## Members of the project
-* Milan Kristof Vince (Millix95)
+* Milan Kristof Vince (milanvince)
 * Dilshad Khalaf (DKhalaf)
 * Nikolay Petrov
 
